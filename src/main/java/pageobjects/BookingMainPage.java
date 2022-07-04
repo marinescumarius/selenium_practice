@@ -24,8 +24,8 @@ public class BookingMainPage extends BasePage{
     private WebElement searchButton;
 
     ////ul[@class='_2i9Agl37xS2G1XMjr4L2kX']/li[1]/button
-    @FindBy (xpath = "//a[@href='https://account.booking.com/oauth2/authorize?aid=304142;client_id=d1cDdLj40ACItEtxJLTo;redirect_uri=https%3A%2F%2Faccount.booking.com%2Fsettings%2Foauth_callback;response_type=code;state=eyJteXNldHRpbmdzX3BhdGgiOiIvbXlzZXR0aW5ncyIsImFpZCI6MzA0MTQyfQ']")
-    private WebElement manageAccount;
+//    @FindBy (xpath = "//a[@href='https://account.booking.com/oauth2/authorize?aid=304142;client_id=d1cDdLj40ACItEtxJLTo;redirect_uri=https%3A%2F%2Faccount.booking.com%2Fsettings%2Foauth_callback;response_type=code;state=eyJteXNldHRpbmdzX3BhdGgiOiIvbXlzZXR0aW5ncyIsImFpZCI6MzA0MTQyfQ']")
+//    private WebElement manageAccount;
     public BookingMainPage(WebDriver driver) {
         super(driver);
     }
