@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Selenium-Practice-Demo">
+
+    <test name="HomePageTests">
+        <classes>
+            <class name="test.BookingHomePageTests" >
+                <methods>
+                    <include name="checkThePageTitle" />
+                    <include name="checkTheWebPageURL" />
+                    <include name="checkHeaderInfoIsDisplayed" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="LogInTests">
+        <classes>
+            <class name="test.BookingLogInTests" >
+                <methods>
+                    <include name="validateSignInPageTest" />
+                    <include name="validateSignInActionTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="MainPageTests">
+        <classes>
+            <class name="test.BookingMainPageTests" >
+                <methods>
+                    <include name="performASearchAndCheckResults" />
+                    <include name="checkIfHotelIsInTheReturnedListOfHotelsForSearchLocationTest" />
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+
+r
+java:S1450"URemove the "driver" field and declare it as a local variable in the relevant methods.(ëÇ×8ıõÏŸ–0
+W
+java:S1118":Add a private constructor to hide the implicit public one.(„¼ƒ8¬¢ĞŸ–0
+W	java:S125"<This block of commented-out lines of code should be removed.(¨˜ì8°•ÆŸ–0
+T
+java:S2589"7Remove this expression which always evaluates to "true"(¼ö¢ñ8ªøˆ°–0
